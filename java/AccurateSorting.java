@@ -18,6 +18,7 @@ import java.util.regex.*;
 //input: the number of queries q; an integer denoting n; n space-separated integers
 //       describing the array A
 //output: "Yes" if "A" can be sorted, "No" otherwise
+
 public class AccurateSorting {
 
     public static void main(String[] args) {
