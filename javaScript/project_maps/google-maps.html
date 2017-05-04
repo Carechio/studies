@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+  </head>
+  <body>
+    <h3>Routes Application</h3>
+    <label for="start">From:</label>
+    <input type="text" class="parameter" id="start" placeholder="Type the origin">
+    <label for="end">To:</label>
+    <input type="text" class="parameter" id="end" placeholder="Type the destination">
+    <button id="go_button" class="button">Go!</button>
+    <div id="map"></div>
+    <script src="js/main.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/button.js"></script>
+    <script src="js/route.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6SUFi8iwPu0FF4WCGtjWrfkkrCDn_ocw&callback=main"
+    type="text/javascript"></script>
+  </body>
+</html>
